@@ -72,12 +72,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Matrix Segment.vb">
+    <Compile Include="Basic Info Parser.vb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Matrix Segment.Designer.vb">
-      <DependentUpon>Matrix Segment.vb</DependentUpon>
+    <Compile Include="Basic Info Parser.Designer.vb">
+      <DependentUpon>Basic Info Parser.vb</DependentUpon>
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -96,6 +98,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Basic Info Parser.resx">
+      <DependentUpon>Basic Info Parser.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

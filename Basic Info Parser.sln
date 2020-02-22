@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic Info Parser", "Basic Info Parser\Basic Info Parser.vbproj", "{D95F908B-F78E-4963-B0AC-83F89977A865}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Activity4", "..\..\bm927\ELEC3ACT4FORTUNATO_5-4\Activity4.vbproj", "{8242721D-9EC2-421B-81D6-38ED014B10EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,15 @@ Global
 		{D95F908B-F78E-4963-B0AC-83F89977A865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95F908B-F78E-4963-B0AC-83F89977A865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95F908B-F78E-4963-B0AC-83F89977A865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8242721D-9EC2-421B-81D6-38ED014B10EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8242721D-9EC2-421B-81D6-38ED014B10EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8242721D-9EC2-421B-81D6-38ED014B10EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8242721D-9EC2-421B-81D6-38ED014B10EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {14C51626-4782-482B-B07F-BF5CAF88908B}
+		SolutionGuid = {E9431BCB-F9CC-450C-9699-CC246038CE52}
 	EndGlobalSection
 EndGlobal
